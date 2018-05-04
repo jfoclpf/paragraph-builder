@@ -6,7 +6,7 @@ This paragraph-builder script creates text with paragraphs from continuous text.
 
 # How to use
 
-```
+```node
 const paraBuilder = require("paragraph-builder");
 var resultText = paraBuilder(text);
 ```
