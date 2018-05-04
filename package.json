@@ -4,7 +4,7 @@
   "description": "Building a text with paragraphs from a continuous uninterrupted text.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "keywords": [
     "paragraphs"
@@ -12,3 +12,4 @@
   "author": "João PImentel Ferreira",
   "license": "GPL-3.0"
 }
+
