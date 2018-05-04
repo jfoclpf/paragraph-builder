@@ -1,17 +1,21 @@
-module.exports = function (inputText, paragraphSpacer="\n\n", minNumChar=250) {
+module.exports = function (inputText, minNumChar=250, paragraphSpacer="\n\n") {
 
-    var splitedText = inputText.split(".");
-
+    var i, splitedText = inputText.split(".");    
+        
     var paragraph = "";  //temporary string with each of the paragraphs
     var finalText = "";  //text to be returned
 
-    for (var i=0; i<splitedText.length; i++){
+    for (i=0; i<splitedText.length; i++){
         paragraph = paragraph.concat(splitedText[i], ".");
         if(paragraph.length > minNumChar){
             finalText = finalText.concat(paragraph, paragraphSpacer);
             paragraph = "";
-        }   
-    }
-    return finalText;    
+            
+            splitedText[i+1] = splitedText[i+1].trim();
+        }
+    }        
+    
+    //removes last paragraphSpacer
+    return finalText.substring(0, finalText.length-paragraphSpacer.length);    
 }
 
