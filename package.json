@@ -10,5 +10,13 @@
     "paragraphs"
   ],
   "author": "João PImentel Ferreira",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfoclpf/paragraph-builder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jfoclpf/paragraph-builder/issues"
+  },
+  "homepage": "https://github.com/jfoclpf/paragraph-builder#readme"
 }
