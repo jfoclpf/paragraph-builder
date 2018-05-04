@@ -1,4 +1,4 @@
-module.exports = function (inputText, minNumChar=250, paragraphSpacer="\n\n") {
+module.exports = function (inputText, minNumChar=500, paragraphSpacer="\n\n") {
 
     var i, splitedText = inputText.split(".");    
         

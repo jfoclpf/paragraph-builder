@@ -6,4 +6,4 @@ console.log(text);
 
 console.log("\n\n#################\n\n");
 
-console.log((paraBuilder(text, 1000, "\n\n")));
+console.log(paraBuilder(text));
