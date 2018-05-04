@@ -13,9 +13,12 @@ module.exports = function (inputText, minNumChar=500, paragraphSpacer="\n\n") {
             
             splitedText[i+1] = splitedText[i+1].trim();
         }
-    }        
+    }
     
-    //removes last paragraphSpacer
-    return finalText.substring(0, finalText.length-paragraphSpacer.length);    
+    paragraph = paragraph.substr(0, paragraph.length-1);
+    
+    finalText = finalText.concat(paragraph);    
+    
+    return finalText;    
 }
 
