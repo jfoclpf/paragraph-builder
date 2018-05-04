@@ -1,6 +1,6 @@
 {
   "name": "paragraph-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Building a text with paragraphs from a continuous uninterrupted text.",
   "main": "index.js",
   "scripts": {
@@ -12,4 +12,3 @@
   "author": "João PImentel Ferreira",
   "license": "GPL-3.0"
 }
-
