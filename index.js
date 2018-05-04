@@ -1,24 +1,43 @@
 module.exports = function (inputText, minNumChar=500, paragraphSpacer="\n\n") {
-
-    var i, splitedText = inputText.split(".");    
+    
+    //normalize minNumChar such that the paragraph size is more even amongst the text
+    minNumChar = Math.round(inputText.length / Math.round(inputText.length/minNumChar));
+    
+    var i, 
+        sentence = "",
+        sentences = []; 
         
-    var paragraph = "";  //temporary string with each of the paragraphs
-    var finalText = "";  //text to be returned
+    //creates array of sentences
+    for (i=0; i<inputText.length; i++){
+        if(inputText[i] !== "." || (isCharNumber(inputText[i-1]) && isCharNumber(inputText[i+1]))){
+            sentence += inputText[i];
+        }
+        else{
+            sentences.push(sentence.trim());  
+            sentence = "";
+        }
+    }         
+    
+    var paragraph = "",     //temporary string with each of the paragraphs
+        finalText = "",     //text to be returned
+        beginOfPara = true; //tells if paragraph just begins
 
-    for (i=0; i<splitedText.length; i++){
-        paragraph = paragraph.concat(splitedText[i], ".");
+    for (i=0; i<sentences.length; i++){
+        paragraph = paragraph.concat(beginOfPara ? "" : " ", sentences[i], ".");
+        beginOfPara = false;
         if(paragraph.length > minNumChar){
             finalText = finalText.concat(paragraph, paragraphSpacer);
-            paragraph = "";
-            
-            splitedText[i+1] = splitedText[i+1].trim();
+            paragraph = "";            
+            beginOfPara = true;
         }
     }
-    
-    paragraph = paragraph.substr(0, paragraph.length-1);
-    
+           
     finalText = finalText.concat(paragraph);    
     
-    return finalText;    
+    return finalText;
 }
 
+
+function isCharNumber(c){
+    return c >= '0' && c <= '9';
+}
