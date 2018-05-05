@@ -47,7 +47,7 @@ Quisque at mattis metus. Fusce non ligula euismod, scelerisque augue sit amet, p
 ``
 
 ``
-Donec sit amet hendrerit sapien, eu porttitor dolor. Proin vehicula diam eget quam interdum, et molestie velit dapibus. Maecenas ornare hendrerit massa. Pellentesque et nibh pretium, molestie leo eu, tempus eros. Suspendisse suscipit eros quis turpis pharetra consectetur. Donec laoreet ipsum tristique risus maximus dapibus. Cras quis sagittis ligula. In sed mi et lacus suscipit dictum."
+Donec sit amet hendrerit sapien, eu porttitor dolor. Proin vehicula diam eget quam interdum, et molestie velit dapibus. Maecenas ornare hendrerit massa. Pellentesque et nibh pretium, molestie leo eu, tempus eros. Suspendisse suscipit eros quis turpis pharetra consectetur. Donec laoreet ipsum tristique risus maximus dapibus. Cras quis sagittis ligula. In sed mi et lacus suscipit dictum.
 ``
 
 You can define the minimum number of characters for a paragraph, defualt is 500. Thus if you use 800, that is:
@@ -86,7 +86,7 @@ It returns a String with several separated paragraphs.
 
 ## toArray
 
-`toString(inputText [, minNumChar=500])`
+`toArray(inputText [, minNumChar=500])`
 
 It returns an Array with the paragraphs.
 
