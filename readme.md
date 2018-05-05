@@ -1,4 +1,4 @@
-This paragraph-builder script creates text with paragraphs from continuous text.
+This paragraph builder node script generates paragraphs from continuous text.
 
 It outputs a text wherein the size of each paragraph is approximately the same, providing an even distribution of paragraphs within the text. It doesn't split the text on numbers such as "1.2".
 
