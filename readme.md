@@ -9,8 +9,8 @@ It outputs a text wherein the size of each paragraph is approximately the same, 
 # How to use
 
 ```node
-const paraBuilder = require("paragraph-builder");
-var resultText = paraBuilder(text);
+const parBuild = require("paragraph-builder");
+var resultText = parBuild.toString(text);
 ```
 
 # Example
@@ -23,8 +23,8 @@ var text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ve
 Applying
 
 ```node
-const paraBuilder = require("paragraph-builder");
-var resultText = paraBuilder(text);
+const parBuild = require("paragraph-builder");
+var resultText = parBuild.toString(text);
 ```
 
 will return this text:
@@ -40,18 +40,26 @@ Quisque at mattis metus. Fusce non ligula euismod, scelerisque augue sit amet, p
 Donec sit amet hendrerit sapien, eu porttitor dolor. Proin vehicula diam eget quam interdum, et molestie velit dapibus. Maecenas ornare hendrerit massa. Pellentesque et nibh pretium, molestie leo eu, tempus eros. Suspendisse suscipit eros quis turpis pharetra consectetur. Donec laoreet ipsum tristique risus maximus dapibus. Cras quis sagittis ligula. In sed mi et lacus suscipit dictum."
 
 
-# Parameters
+# Methods
 
-`function (inputText [, minNumChar=500, paragraphSpacer="\n\n"])`
+## toString
 
-## inputText
+`toString(inputText [, minNumChar=500, paragraphSpacer="\n\n"])`
 
-The text to be processed
+It returns a String with several separated paragraphs.
 
-## minNumChar
+`inputText` is the text to be processed
 
-The minimum number of characters for a paragraph
+`minNumChar` is the minimum number of characters for a paragraph. Default is 500.
 
-## paragraphSpacer
+`paragraphSpacer` is the spacer character or string between paragraphs. Default is "\n\n".
 
-The spacer character or string between paragraphs
+## toArray
+
+`toString(inputText [, minNumChar=500])`
+
+It returns an Array with the paragraphs.
+
+`inputText` is the text to be processed
+
+`minNumChar` is the minimum number of characters for a paragraph. Default is 500.
