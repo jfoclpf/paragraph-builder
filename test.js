@@ -4,4 +4,4 @@ var text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas 8.
 
 console.log(text);
 console.log("\n\n#################\n\n");
-console.log(paraBuilder.toString(text));
+console.log(paraBuilder.toString(text, 800));
