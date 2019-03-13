@@ -4,7 +4,7 @@
   "description": "Building a text with paragraphs from a continuous uninterrupted text.",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "./node_modules/.bin/standard test.js index.js && node test.js"
   },
   "keywords": [
     "paragraphs"
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/jfoclpf/paragraph-builder/issues"
   },
-  "homepage": "https://github.com/jfoclpf/paragraph-builder#readme"
+  "homepage": "https://github.com/jfoclpf/paragraph-builder#readme",
+  "devDependencies": {
+    "standard": "12.0.1"
+  }
 }
