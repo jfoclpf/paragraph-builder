@@ -1,4 +1,4 @@
-[![Build Status][travis_img]][travis_url] [![Dependency Status][dependency status_img]][dependency status_url] [![js-standard-style][js-standard-style_img]][js-standard-style_url]
+[![Build Status][travis_img]][travis_url] [![Known Vulnerabilities](https://snyk.io/test/github/jfoclpf/paragraph-builder/badge.svg?targetFile=package.json)](https://snyk.io/test/github/jfoclpf/paragraph-builder?targetFile=package.json) [![Dependency Status][dependency status_img]][dependency status_url] [![js-standard-style][js-standard-style_img]][js-standard-style_url]
 
 [travis_img]: https://travis-ci.org/jfoclpf/paragraph-builder.svg?branch=master
 [travis_url]: https://travis-ci.org/jfoclpf/paragraph-builder
