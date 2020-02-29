@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/jfoclpf/paragraph-builder#readme",
   "devDependencies": {
-    "standard": "12.0.1"
+    "standard": "14.3.1"
   }
 }
