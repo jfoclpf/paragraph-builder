@@ -13,7 +13,7 @@ function test (sizeOfParagraph) {
 
   var arr = strWithParagraphs.split('\n\n')
   for (let i = 0; i < arr.length; i++) {
-    let trueSizeOfParagraph = arr[i].length
+    const trueSizeOfParagraph = arr[i].length
     console.log('True size of ' + (i + 1) + 'nth paragraph: ' + trueSizeOfParagraph)
     // gives a margin of 30%
     if (trueSizeOfParagraph < (1 - MARGIN) * sizeOfParagraph || trueSizeOfParagraph > (1 + MARGIN) * sizeOfParagraph) {
