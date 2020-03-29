@@ -1,10 +1,7 @@
-[![Build Status][travis_img]][travis_url] [![Coverage Status](https://coveralls.io/repos/github/jfoclpf/paragraph-builder/badge.svg)](https://coveralls.io/github/jfoclpf/paragraph-builder) [![Known Vulnerabilities](https://snyk.io/test/github/jfoclpf/paragraph-builder/badge.svg?targetFile=package.json)](https://snyk.io/test/github/jfoclpf/paragraph-builder?targetFile=package.json) [![Dependency Status][dependency status_img]][dependency status_url] [![js-standard-style][js-standard-style_img]][js-standard-style_url]
+[![Build Status][travis_img]][travis_url] [![Coverage Status](https://coveralls.io/repos/github/jfoclpf/paragraph-builder/badge.svg)](https://coveralls.io/github/jfoclpf/paragraph-builder) [![Known Vulnerabilities](https://snyk.io/test/github/jfoclpf/paragraph-builder/badge.svg?targetFile=package.json)](https://snyk.io/test/github/jfoclpf/paragraph-builder?targetFile=package.json) [![js-standard-style][js-standard-style_img]][js-standard-style_url]
 
 [travis_img]: https://travis-ci.org/jfoclpf/paragraph-builder.svg?branch=master
 [travis_url]: https://travis-ci.org/jfoclpf/paragraph-builder
-
-[dependency status_img]: https://david-dm.org/jfoclpf/paragraph-builder/dev-status.svg
-[dependency status_url]: https://david-dm.org/jfoclpf/paragraph-builder
 
 [js-standard-style_img]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
 [js-standard-style_url]: https://standardjs.com/
