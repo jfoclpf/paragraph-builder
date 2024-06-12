@@ -11,7 +11,7 @@ It outputs a text wherein the size of each paragraph is approximately the same, 
 
 `npm i paragraph-builder`
 
-# How to use
+# Usage
 
 ```js
 const parBuild = require("paragraph-builder");
