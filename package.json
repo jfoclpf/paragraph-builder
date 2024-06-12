@@ -5,8 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "standard test.js index.js && node test.js",
-    "coverage": "nyc npm run test",
-    "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
     "updatePackages": "ncu -e 2 || (ncu -u && npm i --ignore-scripts && npm run commitAndUpload)",
     "commitAndUpload": "npm test && git commit -a -m 'update' && npm version patch && npm publish && git push"
   },
@@ -24,8 +22,7 @@
   },
   "homepage": "https://github.com/jfoclpf/paragraph-builder#readme",
   "devDependencies": {
-    "coveralls": "3.0.11",
-    "nyc": "15.0.1",
-    "standard": "14.3.3"
+    "nyc": "^15.0.1",
+    "standard": "^14.3.3"
   }
 }
