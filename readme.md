@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/jfoclpf/paragraph-builder/badge.svg)](https://coveralls.io/github/jfoclpf/paragraph-builder) [![Known Vulnerabilities](https://snyk.io/test/github/jfoclpf/paragraph-builder/badge.svg?targetFile=package.json)](https://snyk.io/test/github/jfoclpf/paragraph-builder?targetFile=package.json) [![js-standard-style][js-standard-style_img]][js-standard-style_url]
+[![Known Vulnerabilities](https://snyk.io/test/github/jfoclpf/paragraph-builder/badge.svg?targetFile=package.json)](https://snyk.io/test/github/jfoclpf/paragraph-builder?targetFile=package.json) [![js-standard-style][js-standard-style_img]][js-standard-style_url]
 
 [js-standard-style_img]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
 [js-standard-style_url]: https://standardjs.com/
